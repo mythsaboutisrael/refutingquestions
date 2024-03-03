@@ -23,8 +23,13 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+ /* display: inline;*/
   margin-right: 20px;
+}
+
+li:before {
+  content: "👉";
+  padding-right: 5px;
 }
 
 nav ul li a {
